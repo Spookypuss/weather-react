@@ -1,10 +1,12 @@
 
-.highlight {
+.highlighter {
+    color: #716ec6;
     font-weight: 600;
 }
 
 .current-icon {
     font-size: 80px;
+    margin-right: 10px;
 }
 
 .current-temperature {
