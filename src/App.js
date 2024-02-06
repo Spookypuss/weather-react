@@ -6,12 +6,10 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather now</h1>
         <Weather city="Glasgow"/>
-        <br />
-        <Footer />
-        </div>
-    </div>
+      </div>
+      <Footer />
+  </div>
   );
 }
 

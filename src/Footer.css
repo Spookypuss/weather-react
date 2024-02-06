@@ -1,14 +1,14 @@
 a {
-    color: rgb(209, 158, 246);
+    font-weight: 600;
     transition: all 0.2 ease-in-out;
 }
 
 a:hover {
-    color:rgb(93, 219, 241);
+    color:#05a3bf;
 }
 
 footer {
-    color: #5d5d5d;
+    color: #22252e;
     font-family: monospace;
     padding: 20px;
     text-align: center;

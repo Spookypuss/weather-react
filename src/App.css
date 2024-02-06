@@ -1,9 +1,12 @@
 .App {
-  text-align: center;
   margin: 20px;
 }
 
-.App body {
-  background: linear-gradient(109.6deg, rgb(209, 158, 246) 11.2%, rgb(93, 219, 241) 91.1%);
-  color: #5d5d5d;
+.App .container {
+  background-color: white;
+  border: 2px solid;
+  box-shadow: 5px 5px 0 #22252e;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 20px;
 }

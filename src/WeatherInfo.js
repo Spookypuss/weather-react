@@ -15,6 +15,9 @@ export default function WeatherInfo(props) {
                     </div>
                     <div className="col-6">
                         <div className="d-flex current-weather">
+                            <div>
+                                <img src="" alt="" />
+                            </div>
                             <span className="current-temperature">{Math.round(props.data.temperature)}</span>
                             <span className="units">°C</span>
                         </div>
