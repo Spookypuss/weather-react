@@ -1,0 +1,15 @@
+a {
+    color: rgb(209, 158, 246);
+    transition: all 0.2 ease-in-out;
+}
+
+a:hover {
+    color:rgb(93, 219, 241);
+}
+
+footer {
+    color: #5d5d5d;
+    font-family: monospace;
+    padding: 20px;
+    text-align: center;
+}
