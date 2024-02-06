@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import FormattedTime from "./FormattedTime";
 import "./WeatherInfo.css";
 import WeatherIcon from "./WeatherIcon";
+import WeatherUnits from "./WeatherUnits";
 
 export default function WeatherInfo(props) {
     return (
@@ -22,8 +23,7 @@ export default function WeatherInfo(props) {
                             <div className="current-icon">
                                 <WeatherIcon icon={props.data.icon}/>
                             </div>
-                            <span className="current-temperature">{Math.round(props.data.temperature)}</span>
-                            <span className="units">°C</span>
+                            <WeatherUnits celcius={props.data.temperature} />
                         </div>
                     </div>
                 </div>

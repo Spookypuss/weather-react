@@ -1,0 +1,11 @@
+.WeatherUnits a {
+    transition: all 0.2 ease-in-out;
+}
+
+.units {
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    top: -46px;
+    margin-left: 5px;
+  }
