@@ -2,10 +2,10 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import FormattedTime from "./FormattedTime";
 import "./WeatherInfo.css";
-import WeatherIcon from "./WeatherIcon";
 import WeatherUnits from "./WeatherUnits";
 
 export default function WeatherInfo(props) {
+    
     return (
         <div className="WeatherInfo">
             <h1>{props.data.city}</h1>
@@ -20,8 +20,8 @@ export default function WeatherInfo(props) {
                     </div>
                     <div className="col-6">
                         <div className="d-flex current-weather">
-                            <div className="current-icon">
-                                <WeatherIcon icon={props.data.icon}/>
+                            <div className="current-icon">      
+                            <img src={props.data.icon} alt={props.data.description} className="current-icon" />               
                             </div>
                             <WeatherUnits celcius={props.data.temperature} />
                         </div>

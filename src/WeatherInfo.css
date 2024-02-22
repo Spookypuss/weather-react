@@ -7,6 +7,8 @@
 .current-icon {
     font-size: 80px;
     margin-right: 10px;
+    position: relative;
+    top: -5px;
 }
 
 .current-temperature {

@@ -1,4 +1,13 @@
-  
+.current-weather canvas {
+  color: #22252e;
+  height: 80px;
+  width: 80px;
+  margin-right: 5px;
+  display: inline-block;
+  position: relative;
+  top: 8px;
+}
+
 ul {
   list-style-type: none;
   line-height: 1.7;

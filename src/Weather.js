@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 import "./Weather.css";
 
 export default function Weather(props) {
@@ -16,7 +17,9 @@ export default function Weather(props) {
         humidity: response.data.temperature.humidity,
         description: response.data.condition.description,
         time: new Date(response.data.time * 1000),
-        icon: response.data.condition.icon,
+        icon: response.data.condition.icon_url, // This is absolutely giving the right url!
+        longitude: response.data.coordinates.longitude,
+        latitude: response.data.coordinates.latitude,
     });
     }
 
@@ -48,6 +51,8 @@ export default function Weather(props) {
       <div>
         {form}
         <WeatherInfo data={weather}/>
+        <hr />
+        <WeatherForecast longitude={weather.longitude} latitude={weather.latitude} />
       </div>
     );
   } else {
