@@ -6,7 +6,19 @@
   background-color: white;
   border: 2px solid;
   box-shadow: 5px 5px 0 #22252e;
-  max-width: 600px;
+  max-width: 800px;
   margin: 60px auto;
   padding: 20px;
+  width: 60%;
+}
+
+.App h2 {
+  color: blue;
+  font-size: 24px;
+}
+
+.App h3 {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
 }
